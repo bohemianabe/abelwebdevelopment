@@ -11,9 +11,7 @@ A custom WordPress website built to showcase my web development experience, tech
 
 ## Screenshots
 
-## Screenshots
-
-![Home Page](docs/screenshot/home-page.png)
+![Home Page](docs/screenshot/homepage.png)
 
 ![Wordpress Page](docs/screenshot/wordpress-page.png)
 
