@@ -1,0 +1,54 @@
+# Environment variables / credentials
+.env
+.env.*
+!.env.example
+
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# WordPress generated files
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/ai1wm-backups/
+/wp-content/aiowps_backups/
+/wp-content/backup*/
+/wp-content/advanced-cache.php
+
+# Ignore third-party plugins by default
+/wp-content/plugins/*
+!/wp-content/plugins/hero-slider/
+
+# Ignore third-party themes by default
+/wp-content/themes/*
+!/wp-content/themes/understrap-child/
+
+# Logs
+*.log
+debug.log
+error_log
+
+# Database and backups
+*.sql
+*.sql.gz
+*.zip
+*.tar
+*.tar.gz
+*.wpress
+
+# Dependencies and build artifacts
+node_modules/
+vendor/
+dist/
+build/
+
+# OS and IDE files
+.DS_Store
+.idea/
+.vscode/
